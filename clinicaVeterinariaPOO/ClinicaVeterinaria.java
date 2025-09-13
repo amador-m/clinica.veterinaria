@@ -135,7 +135,7 @@ public class ClinicaVeterinaria {
                 break;
             }
         }
-        if(encontrado) {
+        if(!encontrado) {
             JOptionPane.showMessageDialog(null, "Cliente não encontrado", "Erro", JOptionPane.ERROR_MESSAGE);
         }
     }
@@ -179,4 +179,5 @@ public class ClinicaVeterinaria {
 
 
 }
+
 
